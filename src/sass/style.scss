@@ -17,10 +17,13 @@ figure {
 .books-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  // justify-content: center;
+  flex-direction: row;
 }
 
 .book {
+  // max-width: 250px;
+  // display: inline-block;
   &__image {
     display: inline-block;
     margin: 10px 30px;
